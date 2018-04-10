@@ -15,16 +15,16 @@ def grouper(n, iterable, fillvalue=None):
 if __name__ == '__main__':
 	timei=time()
 	#Contem el nombre de linies del fitxer
-	with open('Sherlock100.txt') as f:
+	with open('Sherlock.txt') as f:
 		n=len(f.readlines())
 		n=(n/numMapers)+1
 		
 	#Dividim el fitxer en subfitxers
-	with open('Sherlock100.txt') as f:
+	with open('Sherlock.txt') as f:
 		for i, g in enumerate(grouper(n, f, fillvalue=''), 1):
 			with open('small_file_{0}.txt'.format(i), 'w') as fout:
 				fout.writelines(g)
-	PORT = 8018
+	PORT = 8000
 
 	Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
 

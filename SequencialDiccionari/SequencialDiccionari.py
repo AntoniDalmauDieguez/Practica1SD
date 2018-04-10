@@ -10,7 +10,7 @@ class Maper(object):
 	_ask = []
 	_ref =['execute']
 	def execute(self, red):
-		with open('Sherlock70.txt') as f:
+		with open('Sherlock.txt') as f:
 			s=f.read()
 			red.reducer(countWords(s))
 

@@ -14,7 +14,7 @@ class Maper(object):
 	_ref =['execute']
 	def execute(self, i, red, t):
 		#Descarreguem del HTTPServer el fitxer corresponent
-		commands.getoutput("wget 'http://127.0.0.1:8018/small_file_"+str(i)+".txt'")
+		commands.getoutput("wget 'http://127.0.0.1:8000/small_file_"+str(i)+".txt'")
 		with open('small_file_'+str(i)+".txt", 'r') as f:
 			#Llegim el contingut del fitxer
 			s=f.read()
