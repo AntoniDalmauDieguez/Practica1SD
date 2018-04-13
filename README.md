@@ -27,7 +27,7 @@ Un cop executats els fitxers el projecte realitzara les seguents operacions:
 
 6. El servidor executa l’actor reducer i mostra per pantalla el resultat final.
 
-# Utilització versió sequencial
+# Utilització versió Sequencial
 Per executar la versió sequencial simplement s'haura d'executar la seguent comanda:
 
 $python SequencialDiccionari.py [numMapers]
