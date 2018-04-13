@@ -1,3 +1,12 @@
+*Autors: Antoni Dalmau Diéguez i Oriol Balagué Chorto*
+# Practica1SD
+
+En aquest projecte hem implementat un MapReduce en el qual a partir d'un fitxer amb un tamany considerable executem dues funcions la CountWords i la WordCount.
+
+-La funció CountWords s'encarrega de contar el nombre de vegades que apareix una paraula en un string que rep per paràmetre i retorna un diccionari amb clau "paraula" i valor "# vegades que apareix".
+
+-La funció WordCount s'encarrega de contar el nombre de paraules que conté un string que rep per paràmetre i retorna aquest valor.
+
 # Utilització versió Distribuïda
 Per utilitzar el projecte (en la versió distribuïda) s'han d'executar els seguents fitxers en ordre esperant que acabi l'execució del fitxer anterior:
 1. HTTPServer.py
